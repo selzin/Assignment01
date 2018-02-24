@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>   
+  <head lang="en">
+  	<link rel="stylesheet" href="styles.css">
+  	<title> The anatomy of a large-scale hypertextual Web search engine </title>
+  </head>
+   
+   <body>
+
+   <div class="main">
+   
+      <div>	   
+	   <img src="csd.jpg" alt="Logo of CSD"> <b style="align:center; padding-left:10%;">CS-474 Multimedia Technology </b> 	  
+	  </div>
+	  <hr>
+	 
+	  <h1> The anatomy of a large-scale hypertextual Web search engine </h1> 
+      <h3>Sergey Brin, Lawrence Page</h3>
+	  <p id="univeristyname">Computer Science Department. Stanford Univer.sity Stanford. CA 94305, USA</p>
+    
+	  	   
+      <h4 id="content">Abstract</h4>
+      <p id="content">In "The anatomy of a large-scale hypertextual web search engine" by Sergey Brin and Lawrence Page explains that
+	  GOOGLE is the web search engine that stores the large amount of web pages or documents uploaded by huge number
+	  of users and it is designed in such a way that it overcomes the limitation of existing systems. 
+	  It clearly explains that google is a prototype that can crawl and produce satisfying web search results for the users.</p>
+
+     <h4 id="content">Introduction</h4>
+     <p id="content">This paper explains that as number of population is increasing the users on Web is also increasing rapidly.
+	 In the olden days, World Wide Web Worm(wwww) is used to store the web documents. 
+	 Since wwww has several limitations such as, storage space, Fast crawling technology, hardware performance,
+	 changes in new technologies etc... so author claimed that Google is design to overcome all those limitation
+	 and the term GOOGLE is designed with aim to improve the quality of web search engines. Data structures on 
+	 Google are also optimized for efficient access and fast access. In the olden days some of the people believed that 
+	 to find anything on the search engine can be easily done but nowadays due to increasing the number of documents 
+	 and people are willing to look only at first top ten of results, the very high precision tool is required to 
+	 fulfill the user’s requirement. Authors explains that nowadays most of the web servers are migrating to 
+	 commercial domains so with help of google it will migrate back to academic domains and most of the people can
+	 able to used it. The final aim of this paper is to design a google that support large scale web data by novel
+	 research activities.</p>
+
+     <h4 id="content">System features</h4>
+     <p id="content">Authors explains that the link structure and anchor text both are used in the google. The link structure will 
+	 measure the quality ranking for individual web page and is called PageRank. PageRank helps to prioritize the outcome 
+	 of web keyword searches and also helps in google system. Simple iterative algorithm is used in PageRank and it is
+	 considered as the sum of all the web pages is equal to one in PageRank. Anchors text has several advantages since
+	 anchor provide more accurate description and it may exist for documents which cannot be indexed. Propagating anchor text helps provide better quality results. It is technically difficult if anchor
+	 text is used efficiently due to large numbers of data that must be processed.</p>
+
+	 <h4 id="content">System anatomy</h4>
+     <p id="content">Author explains the overview of high level Google architecture how it works in whole system. 
+	 The language use in the Google is c/c++ and the system that runs the google is either Linux /Solaris system.
+	 Flow of high level google architecture:</p>
+		<p id="content">URL server -> Crawler -> Store server -> Repository -> Indexer ->(Anchor, Doc index, Barrels, Lexicon)</p>
+		<p id="content">Anchor ->URL Resolver -> Links -> Pagerank ->Searcher</p>
+		<p id="content">Doc Index (go back to URL server)-> Searcher</p>
+		<p id="content">Barrels <->sorter -> Searcher</p>
+		<p id="content"> Lexicon - > Searcher</p>
+		<p id="content">Authors explains that google has a fast-distributed crawling (downloading web pages) system and providing 
+		quality search results is the goals of searching in the Google.</p>
+
+	 <h4 id="content">Results and Performance</h4>
+      <p id="content">Google shows the better performance than the other commercial search engines and all the results are so 
+	  high-quality web pages. The important for google search engine is to index and crawled efficiently so that the 
+	  latest information will be up to date. And Google in 1998 it compressed its repository to about 53GB.</p>
+ 
+    <h4 id="content">Conclusion</h4> 
+    <p id="content"> The first goal of google is to provide high quality web search engine and improves the search quality as
+	well and it is deigned in such a way that scalable large search engine. Its also the complete architecture that 
+	collects all the web pages or information by indexing them while entering by several users.
+    The future work of this paper is to improve the efficiency, include the query caching, smart disk allocation 
+	and sub-indices. And also, to used proxy caches in google.</p>
+	  
+	  <br>
+	  <br>
+	  
+	  <a href="index.html"><img src="back.png" class="backbutton" alt="Back Button"></a>	  
+   </div>
+   
+   <div class="footer">
+   <p> cs4089 &copy; Passang 2018</p> 
+   <p>University of Crete, Heraklion @ Greece</p>   
+   </div>
+
+   </body>
+</html>

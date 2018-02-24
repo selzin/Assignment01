@@ -1,0 +1,50 @@
+body{	
+	background-image:url("background.jpg");
+	width:97%;
+	height:auto;
+	}
+
+.main{
+	
+	width: 95%;
+	height:100%;
+	margin:3% 3% 0% 3%;
+	border: 1px solid gray;
+	background-color: white;
+	padding-bottom:10%;
+}
+
+h1,.footer, h3, p#univeristyname{text-align: center;}
+
+h1, ul{
+	padding-top:3%;
+}
+
+ul.paper_content{
+	font-size:150%;
+}
+
+.footer{
+	
+	background-color:black;	
+	color:white;
+	padding-top:3%;
+	padding-bottom:1%;
+}
+
+ul{
+	padding-left:9%;
+}
+
+img.backbutton{
+	width:5%;
+	height:70;	
+}
+
+#content{
+	padding:0% 3% 0% 3%;
+}
+
+ol{
+	padding-left:5%;
+}
